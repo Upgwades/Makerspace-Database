@@ -1,0 +1,2 @@
+AddType application/x-httpd-php7 .html .htm
+RewriteRule ^(.*)\.html$ /$1.php [L]

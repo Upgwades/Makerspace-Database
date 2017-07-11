@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);.login-page {width: 360px;padding: 8% 0 0;margin: auto;}.form {position: relative;z-index: 1;background: #FFFFFF;max-width: 360px;margin: 0 auto 100px;padding: 45px;text-align: center;box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);}.form input {font-family: "Roboto", sans-serif;outline: 0;background: #f2f2f2;width: 100%;border: 0;margin: 0 0 15px;padding: 15px;box-sizing: border-box;font-size: 14px;}.form button {font-family: "Roboto", sans-serif;text-transform: uppercase;outline: 0;background: #492f92;width: 100%;border: 0;padding: 15px;color: #FFFFFF;font-size: 14px;-webkit-transition: all 0.3 ease;transition: all 0.3 ease;cursor: pointer;}.form button:hover,.form button:active,.form button:focus {background: #000000;}.form .message {margin: 15px 0 0;color: #b3b3b3;font-size: 12px;}.form .message a {color: #492f92;text-decoration: none;}.form .register-form {display: none;}.container {padding-bottom: 55px;min-height: 100%}.container:before, .container:after {content: "";display: block;clear: both;}.container .info {margin: 50px auto;text-align: center;}.container .info h1 {margin: 0 0 15px;padding: 0;font-size: 36px;font-weight: 300;color: #1a1a1a;}.container .info span {color: #4d4d4d;font-size: 12px;}.container .info span a {color: #000000;text-decoration: none;}.container .info span .fa {color: #EF3B3A;}
+
+html { height: 100%; font-size: 62.5%  }
+body { height: 100%;   background-color: #FFFFFF; font: 1.2em Verdana, Arial, Helvetica, sans-serif; }
+
+/* ==================== Form style sheet ==================== */
+
+table.form { margin-left: 250px; margin-top: 100px; border-collapse: collapse; border: 1px solid #DDDDDD; }
+
+table.form th, table.form td { padding: 4px 5px 10px; text-align: left; font-weight: normal; }
+
+table.form label { font-family: Verdana, Arial, Helvetica, sans-serif; color: #181818; margin-right: 12px; }
+table.form td span { font-size: 0.9em; color: #181818; margin-left: 8px; }
+table.form td samp { font: 1em Verdana, Arial, Helvetica, sans-serif; color: #000000; }
+
+table.form input { width: 340px; }
+table.form input.answer { width: 53px; }
+table.form textarea { width: 400px; height: 160px; }
+
+table.form input.inp-text, table.form input.answer, table.form textarea
+{ border: 1px solid #909090; padding: 2px; }
+
+table.form th.message-up { vertical-align: top !important; }
+
+table.form label.invisible { visibility: hidden; }
+
+table.form td.submit-button-right { text-align: right !important; }
+table.form input.submit-text { font: 1.4em Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; width: auto; }
+
+table.form label.email { border-bottom: 1px dotted #000000; }
+
+.thanks-text{margin-left: 250px; margin-top: 100px;}
+.tut{padding:60px 0 0 0; font: 1.4em Georgia, "Times New Roman", Times, serif; }
+
+.table-row
+	{
+		cursor:pointer;
+	}
+
+textarea {
+   width: 100%;
+}
+
+/* Remove margins and padding from the list, and add a purple background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #492f92;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+.btn-sample {
+  color: #ffffff;
+  background-color: #492f92;
+  border-color: #ffffff;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  color: #ffffff;
+  background-color: #49247A;
+  border-color: #130269;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+  background-color: #611BBD;
+  border-color: #130269;
+}
+
+.btn-sample .badge {
+  color: #611BBD;
+  background-color: #ffffff;
+
+}
+
+.offset{
+	overflow:hidden
+	float: right;
+  margin-right: -5em;
+}
+
+#reset
+	{
+		color:transparent !important;
+    text-decoration:none !important;
+		cursor:none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: transparent !important;
+    border-collapse: none !important;
+    border-spacing: 0 !important;
+    border-color: transparent !important;
+		background-color: transparent !important;
+    vertical-align: inherit !important;
+    text-align: left !important;
+    font-weight: none !important;
+    -webkit-border-horizontal-spacing: 0 !important;
+    -webkit-border-vertical-spacing: 0 !important;
+
+
+	}
+
+	.table-row-download:hover
+		{
+	    color:black;
+	    text-decoration:underline;
+			cursor:pointer;
+		}
+
+		footer *
+		    {
+		        display: inline;
+						position: relative;
+		    }
