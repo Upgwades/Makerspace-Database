@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore sensitive or otherwise unnecessary
+config/
+xampp/
+dashboard/
+webalizer
+archive/
+applications.html
+bitnami.css
+index.php.old
