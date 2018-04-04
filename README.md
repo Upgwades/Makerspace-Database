@@ -10,43 +10,43 @@ A live running demo of this code can be seen at [here](http://radmakerspace.com/
 
 Standard login page using google's material design template.
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/login_page.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/login_page.jpg)
 
 Login dashboard for users where project request and status can be found as well as request editing.
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/home_page.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/home_page.jpg)
 
 The edit project modal that allows users to append parts or fix request details.
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/edit_project_modal.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/edit_project_modal.jpg)
 
 Project request page where user inputs project details and files
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/request_page.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/request_page.jpg)
 
 Admin view of all requests
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/admin_view_request_page.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/admin_view_request_page.jpg)
 
 Admin view of a single project, includes numerous features to make edits, log progress change status etc.
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/admin_single_project.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/admin_single_project.jpg)
 
 Admin tools for the database
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/admin_tools.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/admin_tools.jpg)
 
 Stats for the database that help in budgeting estimating general use of the lab
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/stats_page_1.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/stats_page_1.jpg)
 
 Stats continued
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/stats_page_2.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/stats_page_2.jpg)
 
 Resource page for students to consult when using the services of the Makerspace
 
-![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/resources_page.PNG)
+![alt text](https://raw.githubusercontent.com/Upgwades/Makerspace-Database/master/Screenshots/resources_page.jpg)
 
 
 ## Software Used
