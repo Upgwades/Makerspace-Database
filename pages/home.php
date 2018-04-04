@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>RAD Makerspace - Home</title>
     <link rel="icon" href="/img/Goomerbot Logo3.png">
@@ -11,19 +10,22 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
-
 <body>
         <div id="Nav"></div>
-        <center>
-            <h3>My Projects</h3>
+          <center><h3>Home</h3>
+            <div class="container">
+            <!--
+            <div class="jumbotron">
+            <h1>Hello!</h1>
+            <p>This is the site to 3D print at Florida Polytechnic.
+              Check your email regularly for questions from us.
             </br>
-            <p>
-                <strong>Note</strong> Check your email regularly for questions from us.</br>
+            If you have any questions check the resources tab for contact information.
             </p>
-        <div class="container">
+          </div>-->
             <div class="panel-group" id="accordion">
 
 
@@ -58,10 +60,10 @@ $statusofProject = $currentprojects['0']['Status'];
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title" align="left">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $ProjectID; ?>"><?php echo $nameofproject . " - " . $statusofProject; ?></a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $ProjectID; ?>"><?php echo $nameofproject . " - " . $statusofProject; ?> <span style="float:right;" class="glyphicon glyphicon-plus"></span></a>
         </h4>
                             </div>
-
+                            <center>
                             <div id="collapse<?php echo $ProjectID; ?>" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <table cellspacing="10" id="infoTable" class="tablesorter table table-bordered table-condensed table-striped table-hover">
@@ -126,10 +128,7 @@ $parts = $query->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-                                            </br></br>
-                                            If you have any questions contact:
-                                            <a href="mailto:sjohnson@flpoly.org?Subject=3D%20Printing%20Question">Scott Johnson</a> - Lab Manager or
-                                            <a href="mailto:makerspace@flpoly.org?Subject=3D%20Printing%20Question">Makerspace</a> - The official email account for the RAD makerspace</br>
+
                                             </br>
                                 </div>
 
@@ -142,7 +141,7 @@ $parts = $query->fetchAll(PDO::FETCH_ASSOC);
             </div>
 
         </div>
-
+        <center>
         <nav class="navbar navbar-default navbar-fixed-bottom">
           <footer>
             <p>Developer: William J Irwin <img src="/img/logoOriginal.jpg" width="50" height="50"></p>
@@ -261,11 +260,12 @@ $parts = $query->fetchAll(PDO::FETCH_ASSOC);
                         </table>
                     </div>
                     </br>
-                    </div>
+                  </div>
                     <div class="modal-footer">
                         <input type="submit" class="btn btn-sample saveproject" value="Save Changes" id="Save Changes"  />
                         <!--<input type="submit" class="btn btn-sample" id="modalSave" data-dismiss="modal">Submit</input>-->
                     </div>
+
                 </div>
             </div>
         </div>

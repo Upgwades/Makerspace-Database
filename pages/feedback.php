@@ -19,10 +19,8 @@
 <td align="center">
 </br>
 <p align="left">
-For all questions, concerns, suggestions etc. concerning the RAD Makerspace let either of these guys know:</br></br>
-<a href="mailto:sjohnson@flpoly.org?Subject=Makerspace%20Feedback">Scott Johnson</a> - Lab Manager</br> or
-<a href="mailto:makerspace@flpoly.org?Subject=Makerspace%20Feedback">Makerspace</a> - The official email account for the RAD makerspace</br></br></br>
-If you'd like to leave a comment on this website (including any bugs or problems you encounter) let us know here:</br></br>
+For all questions, concerns, suggestions etc. concerning the RAD Makerspace check the resources page for contact information.</br></br></br>
+If you'd like to leave a comment on this website (including any bugs or problems you encounter) let us know at
 <a href="mailto:wirwin@flpoly.org?Subject=Website%20Feedback">William J Irwin</a> - Website Developer</br></br>
 </a>
 </p>

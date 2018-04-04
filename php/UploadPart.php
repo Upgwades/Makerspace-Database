@@ -145,7 +145,7 @@ for ($i = 0; $i != count($stlupload);$i++)
 		catch(S3Exception $e)
 		{
 			// Remove the file
-			unlink($tmp_file_path);
+			//unlink($tmp_file_path);
 
 			die("There was an error uploading that file.");
 		}
